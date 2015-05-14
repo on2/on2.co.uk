@@ -1,0 +1,42 @@
+---
+---
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #413E4A;
+}
+
+.jumbotron {
+    color: #FFF;
+    background-color: #2C3B63;
+    h1 {
+        font-family: 'Damion', cursive;
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -0.05em;
+        a {
+            color: #ECE59A;
+            &:hover {
+                text-decoration: none;
+            }
+            span {
+                color: #FD6E8A;
+                padding-left: 0.1em;
+            }
+        }
+    }
+    p {
+        font-size: 1.3em;
+        font-weight: 300;
+        line-height: 1.3em;
+    }
+    .social {
+        margin-top: 20px;
+        font-size: 1.1em;
+        li {
+            margin-bottom: 4px;
+            a {
+                color: #FFF;
+            }
+        }
+    }
+}

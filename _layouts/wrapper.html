@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>{% if page.title %}{{ page.title }} &laquo; {% endif %}On2</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/assets/styles.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Damion" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div class="jumbotron">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-sm-10">
+
+                        <h1><a href="/">On<span>2</span></a></h1>
+
+                        <p>
+                            On2 is the web home of Lee Hesselden,<br />
+                            a Manchester based software architect and PHP developer.
+                        </p>
+
+                    </div>
+
+                    <div class="col-sm-2 social">
+
+                        <ul class="fa-ul">
+                            <li>
+                                <a href="https://uk.linkedin.com/in/leehesselden" title="LinkedIn" target="_blank">
+                                    <i class="fa-li fa fa-linkedin-square"></i>Lee Hesselden
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/On2M" title="Twitter" target="_blank">
+                                    <i class="fa-li fa fa-twitter"></i>On2M
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/on2" title="GitHub" target="_blank">
+                                    <i class="fa-li fa fa-github"></i>on2
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-12">
+
+                    <h1>{{ page.title }}</h1>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-8">
+
+                    {{ content }}
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>
