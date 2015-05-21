@@ -57,7 +57,7 @@ each time we're iterating over `$people` the last element is changing. When it c
 over the last element in the array it's set as the penultimate element, which is why we see it
 twice.
 
-This can be seen is this example:
+This can be seen in this example:
 
 {% highlight php startinline %}
 $people = ['Daphne', 'Portia', 'Agnus', 'Denise', 'Gary'];
